@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Thanjavur Heritage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+Tamil:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="tamil-letters-bg"></div>
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Thanjavur</a>
+            <div class="nav-links">
+                <a href="about.html">About</a>
+                <a href="for-tourists.html">Visit</a>
+                <a href="blog.html">Blog</a>
+                <a href="experiences.html">Experience</a>
+                <a href="contact.html" class="active">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="hero-content">
+            <h1>Get in Touch</h1>
+            <p class="subtitle">We're here to help plan your visit</p>
+        </div>
+    </section>
+
+    <!-- Contact Grid Section -->
+    <section class="contact-section">
+        <div class="section-content">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <div class="info-cards">
+                        <div class="info-card">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3>Visit Us</h3>
+                            <p>Tourist Information Center</p>
+                            <p>Near Brihadeeswarar Temple</p>
+                            <p>Thanjavur, Tamil Nadu</p>
+                            <p>India - 613001</p>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-phone"></i>
+                            <h3>Call Us</h3>
+                            <p>General Enquiries:</p>
+                            <p>+91 123 456 7890</p>
+                            <p>Tour Bookings:</p>
+                            <p>+91 098 765 4321</p>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-envelope"></i>
+                            <h3>Email Us</h3>
+                            <p>General Information:</p>
+                            <p>info@thanjavurheritage.com</p>
+                            <p>Tour Bookings:</p>
+                            <p>tours@thanjavurheritage.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h2>Send us a Message</h2>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">Select Subject</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="booking">Tour Booking</option>
+                                <option value="feedback">Feedback</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="button primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="section-content">
+            <h2>Find Us</h2>
+            <div class="map-wrapper">
+                <div id="map" class="map-container"></div>
+                <div class="map-overlay">
+                    <div class="location-details">
+                        <h3>Thanjavur Heritage Center</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Near Brihadeeswarar Temple</p>
+                        <p><i class="fas fa-location-dot"></i> Thanjavur, Tamil Nadu, India</p>
+                        <a href="https://goo.gl/maps/YOUR_GOOGLE_MAPS_LINK" target="_blank" class="button secondary">
+                            <i class="fas fa-directions"></i> Get Directions
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section class="social-section">
+        <div class="section-content">
+            <h2>Connect With Us</h2>
+            <div class="social-icons">
+                <a href="#" class="social-icon" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-icon" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="social-icon" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-icon" aria-label="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="#" class="social-icon" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p class="copyright">© 2024 Explore Thanjavur. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <span class="separator">|</span>
+                <a href="terms.html">Terms of Use</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/tamil-letters.js"></script>
+    <script src="js/map.js"></script>
+    <!-- Replace YOUR_ACTUAL_API_KEY with a valid Google Maps API key -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_ACTUAL_API_KEY&callback=initMap" async defer></script>
+</body>
+</html> 

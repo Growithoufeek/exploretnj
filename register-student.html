@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Guide Registration | Thanjavur Cultural Exchange</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <body>
+        <!-- Tamil letters background -->
+        <div class="tamil-letters-bg"></div>
+        
+        <!-- Rest of your content -->
+        <nav class="main-nav">
+            ...
+        </nav>
+    <!-- Same nav as index.html -->
+
+    <main class="registration-page">
+        <h1>Student Guide Registration</h1>
+        
+        <form class="registration-form" id="studentForm">
+            <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+
+            <div class="form-group">
+                <label for="college">College/University *</label>
+                <input type="text" id="college" name="college" required>
+            </div>
+
+            <div class="form-group">
+                <label for="course">Course of Study *</label>
+                <input type="text" id="course" name="course" required>
+            </div>
+
+            <div class="form-group">
+                <label for="languages">Languages Known *</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="languages" value="english" required> English</label>
+                    <label><input type="checkbox" name="languages" value="tamil"> Tamil</label>
+                    <label><input type="checkbox" name="languages" value="hindi"> Hindi</label>
+                    <label><input type="checkbox" name="languages" value="other"> Other</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="availability">Available Days</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="availability" value="weekends"> Weekends</label>
+                    <label><input type="checkbox" name="availability" value="weekdays"> Weekdays</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="expertise">Areas of Expertise</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="expertise" value="history"> Local History</label>
+                    <label><input type="checkbox" name="expertise" value="culture"> Cultural Heritage</label>
+                    <label><input type="checkbox" name="expertise" value="agriculture"> Agriculture</label>
+                    <label><input type="checkbox" name="expertise" value="arts"> Arts & Crafts</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="motivation">Why do you want to be a guide? *</label>
+                <textarea id="motivation" name="motivation" rows="4" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-button">Submit Application</button>
+        </form>
+    </main>
+
+    <!-- Same footer as index.html -->
+
+    <script src="js/student-registration.js"></script>
+        <!-- Scripts -->
+        <script src="js/tamil-letters.js"></script>
+    </body>
+
+</body>
+<!-- Add this right after the body tag in all secondary pages -->
+<a href="index.html" class="back-button">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+        <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <span>Home</span>
+</a>
+</html> 
